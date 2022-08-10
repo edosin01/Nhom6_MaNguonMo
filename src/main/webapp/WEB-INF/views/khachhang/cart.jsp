@@ -15,8 +15,9 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-
+<jsp:include page="/WEB-INF/views/khachhang/layout/css.jsp"></jsp:include>
 <link rel="stylesheet" href="${pageContext.servletContext.contextPath}/css/style.css" type="text/css"/>
+
 <link rel="stylesheet"
 	href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -28,7 +29,7 @@
 
 
 <!-- CSS -->
-<jsp:include page="/WEB-INF/views/khachhang/layout/css.jsp"></jsp:include>
+
 
 </head>
 

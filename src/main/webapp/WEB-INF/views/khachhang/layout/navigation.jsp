@@ -16,11 +16,5 @@
 					<option>VND</option>
 				</select>
 			</div>
-			<div class="search">
-				<input type="text" name="keyword" placeholder="search...">
-				<button type="submit" class="btn-search">
-					<i class="fas fa-search"></i>
-				</button>
-			</div>
 		</div>
 	</div>

@@ -24,7 +24,7 @@ function AddToCart(baseUrl, productId, quanlity) {
 			}, 2000);
 		},
 		error: function(jqXhr, textStatus, errorMessage) {
-			
+			console.log("Khong the them");
 		}
 	});
 }

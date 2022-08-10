@@ -8,22 +8,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<%@ page contentType="text/html; charset=UTF-8" %>
-<meta charset="utf-8">
-<title>Tổng kết</title>
-<link rel="stylesheet" href="${pageContext.servletContext.contextPath}/css/style.css" type="text/css"/>
-<link rel="stylesheet"
-	href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-	crossorigin="anonymous" />
+	<%@ page contentType="text/html; charset=UTF-8" %>
+	<meta charset="utf-8">
+	<title>Tổng kết</title>
+	<jsp:include page="/WEB-INF/views/khachhang/layout/css.jsp"></jsp:include>
+	<link rel="stylesheet" href="${pageContext.servletContext.contextPath}/css/style.css" type="text/css"/>
+	<link rel="stylesheet"
+		href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+		crossorigin="anonymous" />
 	
 	<!-- Paging -->
-<link href="${base}/css/simplePagination.css" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="${base }/js/subscribe.js"></script>
-  <script type="text/javascript" src="${base}/js/customer_script.js"></script>
-  <script src="${base}/js/jquery.simplePagination.js"></script>
-  
+	<link href="${base}/css/simplePagination.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="${base }/js/subscribe.js"></script>
+	<script type="text/javascript" src="${base}/js/customer_script.js"></script>
+	<script src="${base}/js/jquery.simplePagination.js"></script>
+  	
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/khachhang/layout/header.jsp"></jsp:include>
@@ -73,7 +74,7 @@
 	</div>
 	 <form class="form-inline" action="${base}/home" method="get">
 		<div class="btnSearch">	
-		<div class="d-flex flex-row justify-content-between mt-4">
+		<div class="d-flex flex-row searchForm">
 			<div class="d-flex flex-row">
 				<input type="hidden" id="page" name="page" class="form-control">
 				<input type="text" id="keyword" name="keyword" class="form-control" placeholder="Search" value="${searchModel.keyword }" style="margin-right: 5px;"> 
@@ -143,7 +144,7 @@
 	</div>
 	<div class="popular">
 		<div class="product_popular">
-			<img src="${pageContext.servletContext.contextPath}/images/1.jpg">
+			<img src="${pageContext.servletContext.contextPath}/images/10.jpg">
 			<div class="title">
 				<i>Red Special Product</i>
 			</div>
@@ -156,7 +157,7 @@
 			</div>
 		</div>
 		<div class="product_popular">
-			<img src="${pageContext.servletContext.contextPath}/images/2.jpg">
+			<img src="${pageContext.servletContext.contextPath}/images/12.jpg">
 			<div class="title">
 				<i>Red Special Product</i>
 			</div>

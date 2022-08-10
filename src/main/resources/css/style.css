@@ -11,8 +11,8 @@ body {
 .header {
     height: 80px;
     background-color: #f64f27;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 185px;
+    padding-right: 185px;
 }
 
 ul {
@@ -43,6 +43,7 @@ a{
     font-weight: 500;
     padding: 14px;
 }
+
 .menu_header ul{
     display: flex;
     justify-content: space-between;
@@ -116,7 +117,8 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.container_navigation .icon{
+.container_navigation .icon {
+    align-self: center;
     padding-right: 20px;
 }
 .container_navigation .icon a{
@@ -127,6 +129,7 @@ a{
 }
 .money select{
     width: 105px;
+    height: 30px;
     font-size: 12px;
     font-family: fangsong;
 }
@@ -137,6 +140,7 @@ a{
 .search input {
     border: 1px solid #e7e7e7;
     width: 100px;
+    height: 26px;
     padding-left: 10px;
     padding-right: 28px;
 }
@@ -181,20 +185,29 @@ a{
     padding:0px 200px;
     height: 50px;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .text_featured{
     font-weight: 600;
     font-size: 16px;
 }
+
+.searchForm {
+    margin-bottom: 1rem;
+    padding: 0 135px;
+    justify-content: flex-end;
+}
+
 .list_product{
     margin-bottom: 60px;
     padding: 0 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-
-
+}
+.col-12.d-flex.justify-content-center {
+    display: flex;
+    justify-content: center;
 }
 .product{
     background-color: #dadada;
@@ -280,7 +293,8 @@ a{
     padding-left: 120px;
 }
 .number{
-    padding: 0 100px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 .page a{
@@ -375,6 +389,6 @@ a{
     display: block;
 }
 .submenu{
-    right: 120px;
-    top: 30px;
+    right: 95px;
+    top: 27px;
 }

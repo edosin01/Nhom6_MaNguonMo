@@ -4,7 +4,7 @@
 				<img src="${base}/images/logo1.png"> <img
 					src="${pageContext.servletContext.contextPath}/images/logo2.png">
 				<div class="turn_light">
-					<a href="">SO TURN THE LIGHT </a>
+					<a href="${base}/home">SO TURN THE LIGHT</a>
 				</div>
 			</div>
 			<div class="menu_header">
@@ -14,10 +14,10 @@
 					<li><a href="${base}/cart/view">CHECKOUT<i class="fas fa-cart-plus"></i>
 					<span id="iconShowTotalItemsInCart" >${totalItems }  </span>
 					</a></li>
-					<li><a href="${base }/login"><i class="fas fa-user-circle"></i>${userLogined.username}</a>
+					<li><a href="${base}/login"><i class="fas fa-user-circle"></i>${userLogined.username}</a>
 						<ul class="submenu">
-							<li><a href="${base }/login">MY ACCOUNT</li>
-							<li><a class="dropdown-item" href="${base }/logout">Logout</a></li>
+							<li><a href="${base }/login">MY ACCOUNT</a></li>
+							<li><a href="${base }/logout">Logout</a></li>
 						</ul>
 					</li>
 				</ul>

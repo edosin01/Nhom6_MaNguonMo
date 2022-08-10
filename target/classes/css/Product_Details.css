@@ -267,7 +267,6 @@ a{
 .add_cart button{
     height: 50px;
     width: 400px;
-    margin-left: 42px;
 }
 .add_cart button:focus{
     background-color: #f75129;

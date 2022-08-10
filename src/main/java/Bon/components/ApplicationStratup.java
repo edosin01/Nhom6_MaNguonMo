@@ -27,12 +27,12 @@ public class ApplicationStratup implements ApplicationListener<ApplicationEvent>
 	@Override
 	public void onApplicationEvent(ApplicationEvent event) {
 		System.out.print("===Begin applicationReadyEvent--------");
-		this.seedPythonCategory();
-		this.seedJavaCategory();
+		//this.seedPythonCategory();
+		//this.seedJavaCategory();
 		System.out.print("===End applicationReadyEvent--------");
 		
 	}
-	private void seedPythonCategory() {
+	/*private void seedPythonCategory() {
 		Categories pythonCate= categoriesService.getOneByNativeSQL("SELECT * FROM tbl_category WHERE name='python'");
 		
 		if(pythonCate==null) {
@@ -79,7 +79,7 @@ public class ApplicationStratup implements ApplicationListener<ApplicationEvent>
 			javaCate.setSeo(new Slugify().slugify("ngon ngu lap trinh pythoon"+ System.currentTimeMillis()));
 		}
 		categoriesService.saveOrUpdate(javaCate);
-	}
+	}*/
 	private void seedContact() {
 		Contact contact= new Contact();
 		contact.getEmail();

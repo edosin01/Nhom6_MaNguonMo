@@ -4,12 +4,16 @@
 	<%@ page contentType="text/html; charset=UTF-8" %>
 	<meta charset="utf-8">
 	<title>Product_details</title>
+	<jsp:include page="/WEB-INF/views/khachhang/layout/css.jsp"></jsp:include>
 	<link rel="stylesheet" type="text/css" href="${base}/css/Product_Details.css">
+	<link rel="stylesheet" type="text/css" href="${base}/css/style.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="${base }/js/subscribe.js"></script>
-  <script type="text/javascript" src="${base}/js/customer_script.js"></script>
-  <script src="${base}/js/jquery.simplePagination.js"></script>
+	<link href="${base}/css/simplePagination.css" rel="stylesheet" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="${base }/js/subscribe.js"></script>
+	<script type="text/javascript" src="${base}/js/customer_script.js"></script>
+	<script src="${base}/js/jquery.simplePagination.js"></script>
 </head>
 <body>
 <jsp:include page="/WEB-INF/views/khachhang/layout/header.jsp"></jsp:include>
